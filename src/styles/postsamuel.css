@@ -1,0 +1,120 @@
+.imgpostssamu{
+    width:var(--imagem-tamanho-width);
+    height:var(--imagem-tamanho-height);
+    display: flex;
+    margin-top: 19px;
+}
+.imgposts{
+    width:var(--imagem-tamanho-width);
+    height:var(--imagem-tamanho-height);
+    display: flex;
+
+}
+.divpaiposts{
+    display: flex;
+    left: 30px;
+    margin-top:90px;
+    margin-bottom: 15px;
+}
+.divpaititulospanimg{
+    display: flex;
+    
+}
+.lipostsamuel{
+    list-style: var(--list-style);
+}
+@media(max-width:790px){
+    .postagemsamuel{
+        width: 10px;
+    }
+}
+.postagemsamuel{
+    display: flex;
+    flex-direction: column;
+     width:var(--width-postagem);
+    max-width: 713px;
+    list-style: var(--list-style);
+    font-family: var(--font-family);
+    
+}
+@media(max-width:600px){
+    .postagemsamuel{
+        width:250px;
+    }
+}
+
+.posts{
+    list-style: var(--list-style);
+    position: relative;
+    width:var(--width-postagem);
+    height:400px;
+    margin-top: 3rem;
+    margin-bottom:5px;
+    font-family: var(--font-family);
+}
+
+.divpaititulospan{
+    display: flex;
+    flex-direction: column;
+    margin-left:40px;
+    justify-content:space-between;
+    margin-bottom: 10px;
+    align-items: flex-start;
+   
+}
+
+.cobretitulodiv{
+    display: flex;
+}
+.sectionspantitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:30px;
+    margin-left: 8px;
+    align-items: flex-start;
+    gap:0;
+}
+.userposttitulo{
+    margin-bottom:8px;
+}
+
+.stackposts{
+    font-size: 14px;
+}
+.sectionspantitulosamu{
+    display: flex;
+    height: 50px;
+    margin-left: 8px;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom:30px;
+}
+.inputinterface{
+color: var(--color-input);
+ padding: 16px 20px;
+ border-radius: 4px;
+ background-color: var(--background-color-input);
+}
+.textointerface{
+    color: var(--color-input);
+    padding: 16px 20px;
+    border-radius: 4px;
+    height: 130px;
+    background-color: var(--background-color-input);
+}
+.botaopostar{
+    width: 69px;
+    border-radius: 4px;
+    height: 38px;
+    background-color: var(--color-botao);
+    color: white;
+    margin-left:630px;
+    font-family: var(--font-family);
+}
+@media(max-width:600px){
+    .botaopostar{
+        margin-left:4px;
+    }
+}

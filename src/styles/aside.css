@@ -1,0 +1,141 @@
+.asidedesktop{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+   flex-direction: column;
+   width: 400px;
+   max-height: 1200px;
+   margin-left:300px;
+  position: sticky;
+  top:85px;
+}
+.tituloaside{
+    display: flex;
+    flex-direction: column;
+    margin-left:50px;
+    flex-direction: column;
+}
+.divcard1{
+    display: flex;
+    flex-direction: column;
+}
+.li1{
+    display: flex;
+    position: relative;
+}
+.imgaside{
+    width:52px;
+    height: 52px;
+    display: flex;
+}
+.divcargouser{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 10px;
+}
+.usercard1{
+    display: flex;
+    margin-top:5px;
+}
+.cargoaside1{
+    display: flex;
+    position: absolute;
+    margin-top:40px;
+    font-size: 12px;
+}
+.botaoseguindo{
+    background-color: var(--color-botao);
+    color: white;
+    width: 89px;
+    height: 28px;
+    border: 1px solid #4263EB;
+    border-radius: 2px;
+    margin-left:100px;
+}
+
+.botaoseguir{
+    font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+color: #212529;
+width: 89px;
+height: 28px;
+border-radius: 2px;
+margin-left:82px;
+}
+.botaoseguir2{
+    font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+color: #212529;
+width: 89px;
+height: 28px;
+border-radius: 2px;
+margin-left:70px;
+}
+@media(min-width:600px){
+    .asidemobile{
+        display: none;
+    }
+}
+@media(max-width:600px){
+    .asidedesktop{
+      display: none;
+    
+}
+.asidemobile{
+    display: flex;
+}
+}
+.divcard1mobile{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+.tituloasidemobile{
+    color: black;
+    position: absolute;
+    top:150px;
+    left:55px;
+
+}
+.li1mobile{
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    padding: 10px;
+}
+.imgasidemmobile{
+    margin-left: 24px;
+    width:var(--imagem-tamanho-width);
+    height:var(--imagem-tamanho-height);
+    
+}
+.botaoseguindomobile{
+    background-color: var(--color-botao);
+    margin-top: 30px;
+    color: white;
+    width: 89px;
+    height: 28px;
+    border: 1px solid #4263EB;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+
+.limobile2{
+    flex-direction: row;
+    align-items: flex-start;
+    list-style: none;
+    padding: 10px;
+}
+.botaoseguirmobile2{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #212529;
+    width: 89px;
+    height: 28px;
+    border-radius: 2px;
+    margin-left:12px;
+}

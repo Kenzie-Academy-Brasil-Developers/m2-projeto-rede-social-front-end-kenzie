@@ -1,0 +1,83 @@
+
+main{
+    position: relative;
+    font-family: var(--font-family);
+}
+.liposts{
+    margin-bottom:65px;
+    
+}
+.paragrafopostagem{
+    color:var(--color-posts)
+}
+@media(max-width:600px){
+    .liposts{
+        max-width: 300px;
+    }
+}
+.botaoabrirpost{
+    background-color: var(--background-color-botao);
+    color: white;
+    padding: 0px 12px;
+    gap:10px;
+    width:100px;
+    height: 38px;
+    border: 2px solid #212529;
+    border-radius: 4px;
+}
+body{
+    display: flex;
+}
+.modalteste{
+    display: none;
+}
+.showmodal{
+    display: flex;
+}
+
+.divpaiul{
+    flex-direction: column;
+}
+.divcard1mobile{
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 200px;
+}
+
+.usercard2{
+    display: flex;
+    margin-top: 5px;
+}
+.cargoaside2{
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 16px;
+    margin-top: -2px;
+    align-items: center;
+    margin-left: 4px;
+}
+
+.imgasidemmobile2{
+    margin-left: 29px;
+    width:var(--imagem-tamanho-width);
+    height:var(--imagem-tamanho-height);
+}
+
+.tituloforaposts{
+    margin-top: 5px;
+    margin-bottom: 40px;
+
+}
+
+.divpaititulospanimg{
+    display: flex;
+    
+}
+
+
+main{
+    height:2100px;
+}
+
+

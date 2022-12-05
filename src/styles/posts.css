@@ -2,6 +2,9 @@
 main{
     position: relative;
     font-family: var(--font-family);
+    max-width: 35.5rem;
+    width: 35.5rem;
+
 }
 .liposts{
     margin-bottom:65px;

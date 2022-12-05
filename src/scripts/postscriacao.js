@@ -1,6 +1,5 @@
 //criação do post samuel
-let divpaiul = document.querySelector(".divpaiul")
-divpaiul.classList.add("divpaiul")
+
 let ulsamuel = document.querySelector(".postsamuel");
 
 let postsamuel = document.createElement("li");
@@ -44,7 +43,7 @@ document.querySelector(".postsamuel").insertAdjacentHTML(
 </form>
 `
 );
-divpaiul.append(ulsamuel)
+
 //fim do post samuel
 
 //criação dos outros 3 posts
@@ -108,6 +107,7 @@ for (let j = 0; j < posts.length; j++) {
   }
 }//fim de criação dos outros posts
 
+//evento botão post
 function eventobotaopost(){
   let botoes = document.querySelectorAll(".botaoabrirpost")
   for(let a = 0; a < botoes.length;a++){
@@ -129,7 +129,7 @@ function abrirmodal(id){
   if(posts[b].id_post === Number(id)){
   element.push(posts[b])
   console.log(element)
-  modaldialog.append(criarmodal(element))
+  modaldialog.append(criarmodal(posts[b]))
   console.log(modaldialog)
 modaldialog.showModal()
 
@@ -140,9 +140,9 @@ modaldialog.showModal()
  let modal__container = document.createElement("div")
  modal__container.classList.add("paiparagrafotitulo")
  let modal__title = document.createElement("h2")
- modal__title.innerText = info[0].title
+ modal__title.innerText = info.title
 let modal__text = document.createElement("p")
-modal__text.innerText =info[0].text
+modal__text.innerText =info.text
 
  modal__container.append(modal__title,modal__text)
 

@@ -16,10 +16,7 @@
     margin-top:90px;
     margin-bottom: 15px;
 }
-.divpaititulospanimg{
-    display: flex;
-    
-}
+
 .lipostsamuel{
     list-style: var(--list-style);
 }
@@ -96,6 +93,13 @@ color: var(--color-input);
  padding: 16px 20px;
  border-radius: 4px;
  background-color: var(--background-color-input);
+ 
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
 }
 .textointerface{
     color: var(--color-input);
@@ -112,6 +116,7 @@ color: var(--color-input);
     color: white;
     margin-left:630px;
     font-family: var(--font-family);
+    border: none;
 }
 @media(max-width:600px){
     .botaopostar{

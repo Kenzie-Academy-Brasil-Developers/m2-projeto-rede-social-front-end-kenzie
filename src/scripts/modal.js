@@ -1,9 +1,4 @@
-const botao = document.querySelector(".botaoabrirpost2")
-const modal = document.querySelector(".dialog2")
-  
-botao.addEventListener('click',()=>{
-  modal.showModal()
-})
+
   /*modal não funcionando
   const botoes2 = document.querySelectorAll(".botaoabrirpost")
   const meumodal = document.getElementById("modaldialog2")

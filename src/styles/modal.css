@@ -1,89 +1,87 @@
-dialog{
-    position: relative;
-    margin-top: 450px;
-    font-family: var(--font-family);
+dialog {
+  position: relative;
+  margin-top: 450px;
+  font-family: var(--font-family);
 }
-@media(max-width:600px){
-    dialog{
-        width:var(--width-modal);
-        max-width:var(--width-modal);
-        margin-top: 1000px;
-    }
-    .paiparagrafotitulo > p {
-        width:var(--width-modal);
-        max-width:var(--width-modal);
-    }
-    .spanfechar{
-        position: absolute;
-        left:-400px;
-    }
+@media (max-width: 600px) {
+  dialog {
+    width: var(--width-modal);
+    max-width: var(--width-modal);
+    margin-top: 1000px;
+  }
+  .paiparagrafotitulo > p {
+    width: var(--width-modal);
+    max-width: var(--width-modal);
+  }
+  .spanfechar {
+    position: absolute;
+    left: -400px;
+  }
 }
-.imgmodal{
-    width:var(--imagem-tamanho-width);
-    height:var(--imagem-tamanho-height);
-    display: inline;
-    margin-top: 26px;
+.imgmodal {
+  width: var(--imagem-tamanho-width);
+  height: var(--imagem-tamanho-height);
+  display: inline;
+  margin-top: 26px;
 }
-#modaldialog{
-    width: 720px;
-    height: 440px;
-    padding: 30px 17px;
-    gap: 32px;
-    border: none;
-    border-radius: 8px;
+#modaldialog {
+  width: 720px;
+  height: 440px;
+  padding: 30px 17px;
+  gap: 32px;
+  border: none;
+  border-radius: 8px;
 }
-#modaldialog::backdrop{
-background-color: rgba(0.0.0.0.6);
-}
-
-.limodal{
-    display: flex;
-    position: relative;
-}
-.ulmodal{
-    margin-left: -25px;
-    margin-bottom:35px;
-}
-.divspantitulomodal{
-    display: flex;
-    flex-direction: column;
-    height: 30px;
-    margin-left: 8px;
-    align-items: flex-start;
-
-}
-.spanfechar{
-display: flex;
-margin-left: 670px;
-position: absolute;
-
+#modaldialog::backdrop {
+  background-color: rgba(0.0.0.6);
 }
 
-.divpaitituloimgspan{
-    display: flex;
+.limodal {
+  display: flex;
+  position: relative;
 }
-.spancargo{
-    font-family:var(--font-family);
-font-style: normal;
-font-weight:var(--font-weight);
-font-size: 14px;
-line-height: 16px;
+.ulmodal {
+  margin-left: -25px;
+  margin-bottom: 35px;
 }
-.titulomodal{
-    margin-bottom: 12px;
-    margin-top: 28px;
+.divspantitulomodal {
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+  margin-left: 8px;
+  align-items: flex-start;
+}
+.spanfechar {
+  display: flex;
+  margin-left: 670px;
+  position: absolute;
+}
+
+.divpaitituloimgspan {
+  display: flex;
+}
+.spancargo {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: var(--font-weight);
+  font-size: 14px;
+  line-height: 16px;
+}
+.titulomodal {
+  margin-bottom: 12px;
+  margin-top: 28px;
 }
 .paiparagrafotitulo > p {
-    width: 713px;
-height: 252px;
-left: 24px;
-top: 224px;
+  width: 713px;
+  height: 252px;
+  left: 24px;
+  top: 224px;
 
-font-family:var(--font-family);
-font-style: normal;
-font-weight:var(--font-weight);
-font-size: 16px;
-line-height: 28px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: var(--font-weight);
+  font-size: 16px;
+  line-height: 28px;
 
-color:var(--color-posts)
+  color: var(--color-posts);
 }
